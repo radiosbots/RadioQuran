@@ -58,7 +58,7 @@ class Config:
     # Mendatory Variables
     ADMIN = os.environ.get("AUTH_USERS", "1030802926")
     ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
-    ADMINS.append(1316963576)
+    ADMINS.append(1030802926)
     API_ID = int(os.environ.get("API_ID", "14020050"))
     API_HASH = os.environ.get("API_HASH", "b4953d046d0b6e66217ab464951257b5")
     CHAT_ID = int(os.environ.get("CHAT_ID", "-1001791338343"))
@@ -69,7 +69,7 @@ class Config:
     STREAM_URL=finalurl
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001542939700")
     LOG_GROUP = int(LOG_GROUP) if LOG_GROUP else None
-    ADMIN_ONLY=os.environ.get("ADMIN_ONLY", "False")
+    ADMIN_ONLY=os.environ.get("ADMIN_ONLY", "True")
     REPLY_MESSAGE=os.environ.get("REPLY_MESSAGE", None)
     REPLY_MESSAGE = REPLY_MESSAGE or None
     DELAY = int(os.environ.get("DELAY", 10))
