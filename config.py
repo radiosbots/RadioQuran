@@ -56,7 +56,7 @@ else:
 class Config:
 
     # Mendatory Variables
-    ADMIN = os.environ.get("AUTH_USERS", "1030802926")
+    ADMIN = os.environ.get("AUTH_USERS", "")
     ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
     ADMINS.append()
     API_ID = int(os.environ.get("API_ID", "14020050"))
