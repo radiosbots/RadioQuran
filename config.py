@@ -69,7 +69,7 @@ class Config:
     STREAM_URL=finalurl
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001542939700")
     LOG_GROUP = int(LOG_GROUP) if LOG_GROUP else None
-    ADMIN_ONLY=os.environ.get("ADMIN_ONLY", "True")
+    ADMIN_ONLY=os.environ.get("ADMIN_ONLY", "False")
     REPLY_MESSAGE=os.environ.get("REPLY_MESSAGE", None)
     REPLY_MESSAGE = REPLY_MESSAGE or None
     DELAY = int(os.environ.get("DELAY", 10))
