@@ -61,8 +61,8 @@ class Config:
     ADMINS.append(6043381707)
     API_ID = int(os.environ.get("API_ID", "15377279"))
     API_HASH = os.environ.get("API_HASH", "9b4f9729873e22a7a30a121edc6c1f70")
-    CHAT_ID = int(os.environ.get("CHAT_ID", "-1001911391893"))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6068922894:AAF55V7WWyg1ZYC7ScynOaWqW4I_rRQASpA")
+    CHAT_ID = int(os.environ.get("CHAT_ID", "-1001886075353"))
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6023706615:AAGvQzRg-OPmXWfwFkQcAf1RKbbMga9GfCA")
     SESSION = os.environ.get("SESSION_STRING", "BAB-fWXu6EQO_x99SP8ReHHRy6nDd_qtwMu3wZCFF0DDWwfumZihp18xC0Ul7PcrU5mJMTEMD3_x-pR_nfipaD5OQV_YkMO5SPZQ1iWEaQNg8bW-EFvEy_5e-bwHpMvJW5O8c0_i818S_BIwzwZPrIQT8gqMtPvfIJuUiCayzHIGBaGmFzS4Q10XkkuSJR-X5L2HT2DnmHp8nzfI1AcwKoy_fu-gY7iT8IgrzAO_0FrjUsrmCWwRun2tsK1v6dsjyI0hdbmE1RJ4roHnumzzL3T4It2PQK6tBkQ-XbrAX2m1Pe3o28IeCGi9omzdJRNyASrnV0nSKzu_hjFjJ9Hvux25AAAAAWg2r8sA")
 
     # Optional Variables
