@@ -58,7 +58,7 @@ class Config:
     # Mendatory Variables
     ADMIN = os.environ.get("AUTH_USERS", "6043381707")
     ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
-    ADMINS.append()
+    ADMINS.append(6043381707)
     API_ID = int(os.environ.get("API_ID", "15377279"))
     API_HASH = os.environ.get("API_HASH", "9b4f9729873e22a7a30a121edc6c1f70")
     CHAT_ID = int(os.environ.get("CHAT_ID", "-1001911391893"))
